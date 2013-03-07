@@ -30,3 +30,8 @@ stamp-h.in
 *.rej
 *-uninstalled.pc
 .vimrc
+
+# debian stamps
+*-stamp-main
+*-stamp-udeb
+*-stamp
