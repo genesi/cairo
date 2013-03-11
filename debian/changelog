@@ -1,3 +1,23 @@
+cairo (1.12.14-2genesi1) maverick; urgency=low
+
+  * Pull fixes from upstream (performance/crash fixes)
+    - spans: Mark the surface as cleared in preparing for recording surface playback
+    - recording: Avoid indirection through indices array if not reduced
+    - path: Fix bbox computation for negative scale factors
+    - test: Exercise replaying a recording surface through a flip matrix
+    - gl: disable GL_DITHER
+    - image: Compare against the true size of the embedded buffer
+    - pdf: add missing 'endobj' to shading dict
+    - xlib: Fix invocation of XRenderFindFormat()
+    - pdf: Fix crash
+    - [FT] Prefer downscaling bitmap glyphs to upscaling
+    - gl: Export query for EGLContext and EGLDisplay from device
+    - gl: Fix typo s/bool/cairo_bool_t/
+    - gl: Setup operands when the vertex size changes
+  * Update symbols because of "gl: Export query.."
+
+ -- Matt Sealey <matt@genesi-usa.com>  Mon, 11 Mar 2013 17:38:59 -0600
+
 cairo (1.12.14-1genesi2) maverick; urgency=low
 
   * Fix git build
