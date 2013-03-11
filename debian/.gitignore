@@ -1,0 +1,16 @@
+files
+*.debhelper
+*.debhelper.log
+*.substvars
+
+# build directories
+build
+install
+libcairo-gobject2
+libcairo-script-interpreter2
+libcairo2
+libcairo2-dbg
+libcairo2-dev
+libcairo2-doc
+libcairo2-udeb
+cairo-perf-utils
