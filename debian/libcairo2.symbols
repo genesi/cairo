@@ -349,6 +349,10 @@ libcairo.so.2 libcairo2 #MINVER#
  cairo_svg_surface_create_for_stream@Base 1.2.4
  cairo_svg_surface_restrict_to_version@Base 1.2.4
  cairo_svg_version_to_string@Base 1.2.4
+ cairo_tee_surface_add@Base 1.10.2-2~
+ cairo_tee_surface_create@Base 1.10.2-2~
+ cairo_tee_surface_index@Base 1.10.2-2~
+ cairo_tee_surface_remove@Base 1.10.2-2~
  cairo_text_cluster_allocate@Base 1.7.2
  cairo_text_cluster_free@Base 1.7.2
  cairo_text_extents@Base 1.2.4

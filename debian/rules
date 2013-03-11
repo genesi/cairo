@@ -53,7 +53,7 @@ $(configure_flags) \
 --enable-perf-utils \
 --enable-xlib --enable-xcb \
 --enable-xlib-xcb \
---enable-svg \
+--enable-svg --enable-tee \
 --enable-glesv2 --enable-vg --disable-gl \
 --enable-egl --disable-glx
 
@@ -61,7 +61,7 @@ udeb_configure_flags += \
 $(configure_flags) \
 --disable-perf-utils \
 --disable-xcb --disable-xlib-xcb \
---disable-svg \
+--disable-svg --disable-tee \
 --disable-glesv2 --disable-vg --disable-gl \
 --disable-egl --disable-glx
 
