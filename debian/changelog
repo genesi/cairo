@@ -1,3 +1,12 @@
+cairo (1.12.14-2genesi2) maverick; urgency=low
+
+  * Fix '[FT] Prefer downscaling bitmap glyphs to upscaling'
+    - was using abs(double) instead of fabs(double) and caused
+      font rendering to stop working completely
+  * Correct -dev for dependency on libx11-xcb-dev
+
+ -- Matt Sealey <matt@genesi-usa.com>  Fri, 15 Mar 2013 08:14:21 -0600
+
 cairo (1.12.14-2genesi1) maverick; urgency=low
 
   * Pull fixes from upstream (performance/crash fixes)
