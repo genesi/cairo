@@ -117,7 +117,7 @@ configure-stamp-%: configure-common-stamp
 
 build:
 	for f in $(FLAVORS); do \
-	    debian/rules build-stamp-$$f; \
+		$(MAKE) -j1 -f debian/rules build-stamp-$$f; \
 	done
 
 build-stamp-%: configure-stamp-%
